@@ -54,6 +54,20 @@ td {
     padding: 12px;
     vertical-align: top;
 }
+@media (max-width: 768px) {
+
+    table {
+        display: block;
+        overflow-x: auto;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    main img {
+        max-width: 100%;
+    }
+
+}
 
 /* Screenshots */
 
