@@ -187,6 +187,18 @@ footer a {
 footer a:hover {
     color: white;
 }
+.sidebar a {
+    color: var(--sidebar-link);
+    text-decoration: none;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: var(--sidebar-hover);
+}
 @media (max-width: 768px) {
 
     .page-layout {
@@ -195,10 +207,41 @@ footer a:hover {
 
     .sidebar {
         width: 100%;
+        padding: 20px;
+    }
+
+    .sidebar ul {
+        text-align: center;
+    }
+
+    .sidebar ul ul {
+        padding-left: 0;
     }
 
     main {
         padding: 25px;
+    }
+
+    .intro-section,
+    .resume-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resume-contact h1,
+    .resume-contact h2 {
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 25px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    footer {
+        padding: 30px 20px 50px;
     }
 
 }
