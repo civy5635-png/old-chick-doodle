@@ -149,6 +149,7 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 200px;
 }
 
 footer h3 {
