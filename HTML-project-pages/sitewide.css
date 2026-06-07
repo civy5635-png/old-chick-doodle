@@ -44,6 +44,45 @@ body {
   font-size: 20px;
   margin-top: 8px;
 }
+h2 {
+  text-align: center;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 0;
+}
+
+.intro-section p {
+  margin-top: 0;
+}
+
+main {
+  background-color: #f7f3ea;
+  padding: 40px 50px 70px;
+}
+
+body {
+  background-color: #0f1a22;
+}
+
+.page-layout {
+  background-color: #d8e3e6;
+}
+
+footer {
+  background-color: #142733;
+  color: #f2e8c9;
+  padding: 35px 40px 55px;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .page-layout {
   display: flex;
