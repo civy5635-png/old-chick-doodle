@@ -1,10 +1,10 @@
 :root {
-  --page-bg: #0f1a22;
-  --content-bg: #f4f7f8;
+  --page-bg: #d8e3e6;
+  --content-bg: #f6f8f7;
   --sidebar-bg: #142733;
-  --sidebar-link: #d8e6ec;
+  --sidebar-link: #f2e8c9;
   --sidebar-hover: #7fa9b8;
-  --accent: #7fa9b8;
+  --accent: #c9a95c;
   --footer-bg: #0b151c;
   --footer-text: #d8e6ec;
 }
@@ -25,14 +25,13 @@ body {
   background-position: center;
   height: 300px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  padding-right: 70px;
+  padding-left: 70px;
 }
 
 .header-title {
-  text-align: right;
-  color: #e8f1f4;
+  color: #f2e8c9;
   text-shadow: 2px 2px 6px #000;
 }
 
@@ -54,39 +53,31 @@ body {
 }
 
 .sidebar {
-  width: 240px;
+  width: 250px;
   background-color: var(--sidebar-bg);
   padding: 25px;
-  min-height: 600px;
+  flex-shrink: 0;
 }
 
-.sidebar h2 {
-  color: var(--accent);
-  text-align: center;
+main {
+  flex: 1;
+  padding: 35px;
+  color: #1f2a30;
 }
 
 .sidebar a {
-  display: block;
   color: var(--sidebar-link);
   text-decoration: none;
-  padding: 10px;
-  margin-bottom: 6px;
 }
 
 .sidebar a:hover {
   color: #ffffff;
   background-color: var(--sidebar-hover);
 }
-
-main {
-  flex: 1;
-  padding: 35px;
-}
-
-footer {
-  background-color: var(--footer-bg);
-  color: var(--footer-text);
-  padding: 25px 40px;
+.profile-pic {
+  border-radius: 50%;
+  border: 4px solid var(--accent);
+  box-shadow: 0 0 12px rgba(20, 39, 51, 0.7);
 }
 
 .footer-content {
