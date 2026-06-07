@@ -1,0 +1,107 @@
+:root {
+  --page-bg: #0f1a22;
+  --content-bg: #f4f7f8;
+  --sidebar-bg: #142733;
+  --sidebar-link: #d8e6ec;
+  --sidebar-hover: #7fa9b8;
+  --accent: #7fa9b8;
+  --footer-bg: #0b151c;
+  --footer-text: #d8e6ec;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: var(--page-bg);
+  color: #1f2a30;
+}
+
+.header {
+  background-image: url("media/Class-portfolio-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.header-title {
+  text-align: right;
+  color: #e8f1f4;
+  text-shadow: 2px 2px 6px #000;
+}
+
+.header-title h1 {
+  font-size: 46px;
+  margin: 0;
+}
+
+.header-title p {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.page-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--content-bg);
+}
+
+.sidebar {
+  width: 240px;
+  background-color: var(--sidebar-bg);
+  padding: 25px;
+  min-height: 600px;
+}
+
+.sidebar h2 {
+  color: var(--accent);
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  color: var(--sidebar-link);
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 6px;
+}
+
+.sidebar a:hover {
+  color: #ffffff;
+  background-color: var(--sidebar-hover);
+}
+
+main {
+  flex: 1;
+  padding: 35px;
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 25px 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
