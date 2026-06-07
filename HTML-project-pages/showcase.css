@@ -17,7 +17,7 @@
 main img {
     display: block;
     max-width: 500px;
-    width: 100%;
+    
     height: auto;
     margin: 0 auto 25px;
 }
@@ -25,12 +25,26 @@ main img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-}
-.ad-gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
     margin-top: 30px;
+}
+
+.ad-gallery div {
+    text-align: center;
+}
+
+.ad-gallery img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main img {
+    display: block;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto 25px;
 }
 
 .ad-gallery div {
