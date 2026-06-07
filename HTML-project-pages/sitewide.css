@@ -232,7 +232,19 @@ footer a:hover {
     .resume-contact h2 {
         text-align: center;
     }
+/* Mobile Navigation */
 
+@media (max-width: 768px) {
+
+    .sidebar ul ul {
+        display: none;
+    }
+
+    .sidebar li:hover > ul {
+        display: block;
+    }
+
+}
     .footer-content {
         flex-direction: column;
         gap: 25px;
