@@ -187,3 +187,18 @@ footer a {
 footer a:hover {
     color: white;
 }
+@media (max-width: 768px) {
+
+    .page-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    main {
+        padding: 25px;
+    }
+
+}

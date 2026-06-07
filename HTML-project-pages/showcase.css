@@ -117,3 +117,12 @@ video {
 main p {
     line-height: 1.45;
 }
+@media (max-width: 768px) {
+
+    .branding-gallery,
+    .ad-gallery,
+    .before-after {
+        grid-template-columns: 1fr;
+    }
+
+}
