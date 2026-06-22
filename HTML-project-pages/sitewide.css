@@ -199,7 +199,9 @@ footer a:hover {
     color: white;
     background-color: var(--sidebar-hover);
 }
-
+.menu-toggle {
+    display: none;
+}
 /*DROPDOWN MENU*/
 .dropdown {
     position: relative;
@@ -269,10 +271,25 @@ body.font-large {
     .page-layout {
         flex-direction: column;
     }
+/* Hamburger/Mobile Navigation */
+.menu-toggle {
+    display: block;
+    margin: 10px;
+    font-size: 24px;
+}
 
+.sidebar.nav-open {
+    display: block;
+}
+     
     .sidebar {
+        display: none;
         width: 100%;
         padding: 20px;
+    }
+
+    .sidebar.nav-open {
+        display: block;
     }
 
     .sidebar ul {
@@ -287,6 +304,7 @@ body.font-large {
         padding: 25px;
     }
 
+
     .intro-section,
     .resume-header {
         flex-direction: column;
@@ -297,7 +315,7 @@ body.font-large {
     .resume-contact h2 {
         text-align: center;
     }
-/* Hamburger/Mobile Navigation */
+
 .dropdown-menu {
     display: none;
 }
