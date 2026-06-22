@@ -229,14 +229,15 @@ footer a:hover {
     text-align: left;
     background: transparent;
     border: none;
-    color: inherit;
+    color: #d4af37;
     font: inherit;
     cursor: pointer;
 }
 
 .dropdown-menu a:hover,
 .dropdown-menu button:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    color: #d4af37;
+    background-color: rgba(255,255,255,0.15);
 }
 
 /*THEME CLASSES*/
