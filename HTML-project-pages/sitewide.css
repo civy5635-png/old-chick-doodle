@@ -221,15 +221,15 @@ footer a:hover {
     margin: 0;
 }
 
-.dropdown-menu a,
-.dropdown-menu button {
+.sidebar .dropdown-menu a,
+.sidebar .dropdown-menu button {
     display: block;
     width: 100%;
     padding: 10px;
     text-align: left;
     background: transparent;
     border: none;
-    color: #d4af37;
+    color: #d4af37 !important;
     font: inherit;
     cursor: pointer;
 }
