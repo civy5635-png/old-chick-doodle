@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    alert("JavaScript is loaded");
+    alert("JavaScript loaded");
 
     const menuButton = document.querySelector(".menu-toggle");
     const sidebar = document.querySelector(".sidebar");
