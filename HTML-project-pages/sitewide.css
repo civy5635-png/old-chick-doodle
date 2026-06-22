@@ -304,9 +304,8 @@ body.font-large {
 .dropdown.open .dropdown-menu {
     display: block;
 }
-.sidebar ul ul {
-    display: none;
-}
+
+
     .footer-content {
         flex-direction: column;
         gap: 25px;
