@@ -144,7 +144,29 @@ h2 {
     text-align: left;
     margin-top: 0;
 }
+/* Resume Collapsible Sections */
 
+.collapse-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-link);
+    border: none;
+    font: inherit;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.collapse-content {
+    display: block;
+    padding: 15px 0;
+}
+
+.collapse-content.collapsed {
+    display: none;
+}
 .resume-contact h2 {
     text-align: left;
 }
