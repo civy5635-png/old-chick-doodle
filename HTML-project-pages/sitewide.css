@@ -160,7 +160,7 @@ h2 {
 }
 
 .collapse-content {
-    display: block;
+    display: none;
     padding: 15px 0;
 }
 
