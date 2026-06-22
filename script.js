@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
     alert("JavaScript loaded");
 
     const menuButton = document.querySelector(".menu-toggle");
@@ -6,8 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (menuButton && sidebar) {
         menuButton.addEventListener("click", function () {
+
             alert("Hamburger clicked");
+
             sidebar.classList.toggle("nav-open");
         });
     }
+
 });
