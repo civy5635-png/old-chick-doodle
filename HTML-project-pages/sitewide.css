@@ -203,6 +203,9 @@ footer a:hover {
     display: none;
 }
 /*DROPDOWN MENU*/
+.menu-toggle {
+    display: none;
+}
 .dropdown {
     position: relative;
 }
@@ -277,7 +280,16 @@ body.font-large {
     margin: 10px;
     font-size: 24px;
 }
-
+.menu-toggle {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 28px;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-link);
+    border: none;
+    text-align: center;
+}
 .sidebar.nav-open {
     display: block;
 }
