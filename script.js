@@ -1,8 +1,10 @@
-const menuButton = document.querySelector(".menu-toggle");
-const sidebar = document.querySelector(".sidebar");
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".menu-toggle");
+    const sidebar = document.querySelector(".sidebar");
 
-if (menuButton && sidebar) {
-    menuButton.addEventListener("click", function () {
-        sidebar.classList.toggle("nav-open");
-    });
-}
+    if (menuButton && sidebar) {
+        menuButton.addEventListener("click", function () {
+            sidebar.classList.toggle("nav-open");
+        });
+    }
+});

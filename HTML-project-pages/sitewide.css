@@ -274,26 +274,20 @@ body.font-large {
     .page-layout {
         flex-direction: column;
     }
-/* Hamburger/Mobile Navigation */
-.menu-toggle {
-    display: block;
-    margin: 10px;
-    font-size: 24px;
-}
-.menu-toggle {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    font-size: 28px;
-    background-color: var(--sidebar-bg);
-    color: var(--sidebar-link);
-    border: none;
-    text-align: center;
-}
-.sidebar.nav-open {
-    display: block;
-}
-     
+
+    /* Hamburger/Mobile Navigation */
+
+    .menu-toggle {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        font-size: 28px;
+        background-color: var(--sidebar-bg);
+        color: var(--sidebar-link);
+        border: none;
+        text-align: center;
+    }
+
     .sidebar {
         display: none;
         width: 100%;
@@ -316,7 +310,6 @@ body.font-large {
         padding: 25px;
     }
 
-
     .intro-section,
     .resume-header {
         flex-direction: column;
@@ -328,14 +321,13 @@ body.font-large {
         text-align: center;
     }
 
-.dropdown-menu {
-    display: none;
-}
+    .dropdown-menu {
+        display: none;
+    }
 
-.dropdown.open .dropdown-menu {
-    display: block;
-}
-
+    .dropdown.open .dropdown-menu {
+        display: block;
+    }
 
     .footer-content {
         flex-direction: column;
