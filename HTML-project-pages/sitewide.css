@@ -164,8 +164,8 @@ h2 {
     padding: 15px 0;
 }
 
-.collapse-content.collapsed {
-    display: none;
+.collapse-content.open {
+    display: block;
 }
 .resume-contact h2 {
     text-align: left;

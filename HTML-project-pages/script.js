@@ -55,6 +55,6 @@ const collapseButtons = document.querySelectorAll(".collapse-button");
 collapseButtons.forEach(function (button) {
     button.addEventListener("click", function () {
         const content = button.nextElementSibling;
-        content.classList.toggle("collapsed");
+        content.classList.toggle("open");
     });
 });
