@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    // Restore saved theme
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark-mode");
+    }
+
     const menuButton = document.querySelector(".menu-toggle");
     const sidebar = document.querySelector(".sidebar");
 
@@ -19,14 +26,15 @@ const largeFont = document.querySelector("#largeFont");
 
 if (lightMode) {
     lightMode.addEventListener("click", function () {
-    document.body.classList.remove("dark-mode");
-});
+        document.body.classList.remove("dark-mode");
+        localStorage.setItem("theme", "light");
+    });
 }
 
 if (darkMode) {
     darkMode.addEventListener("click", function () {
-      
         document.body.classList.add("dark-mode");
+        localStorage.setItem("theme", "dark");
     });
 }
 

@@ -234,9 +234,18 @@ footer a:hover {
 
 .dropdown-menu {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: var(--sidebar-bg);
+    min-width: 200px;
+
     list-style: none;
-    padding-left: 15px;
+    padding: 0;
     margin: 0;
+
+    z-index: 1000;
 }
 
 .dropdown:hover .dropdown-menu,
@@ -380,7 +389,11 @@ body.font-large {
     .dropdown.open .dropdown-menu {
         display: block;
     }
-
+   .dropdown-menu {
+    position: static;
+    min-width: auto;
+    padding-left: 15px;
+    }
     .footer-content {
         flex-direction: column;
         gap: 25px;
