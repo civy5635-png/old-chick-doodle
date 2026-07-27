@@ -1,0 +1,107 @@
+Lesson: Node.js and Server-side Form Validation
+
+Activity: Express - Node.js Web Application Framework Reviewed
+
+Transcript
+
+All right, let's take a look at Express, the framework-- very popular for good reason, Node.js web application framework.
+
+And first if we look back just for a second, an earlier reading, you noticed in the routing-favicon web app that we have these cases for responding to requests.
+
+So the home page in a sense, case forward slash-- the contact page on line 18, case /contact.
+
+It certainly works, right?
+
+It established a way for us to respond to requests in a differential fashion, right?
+
+Serve back something-- the favicon, for instance.
+
+But this method of this-- strategy of doing this can get kind of cumbersome.
+
+And luckily, there is the Express framework which makes a lot of this much easier.
+
+So we're looking now at minimum-express again in Demos in the Node directory.
+
+And one of them-- well let's look at how we can get Express up and running.
+
+So we have to include express.js in the package.json dependencies.
+
+We can add it manually, but even easier is to-- if I open that directory in the terminal, right?
+
+In the command line environment, if I NPM install express.js-- again, NPM, the Node Package Manager, and hit Enter, I might get a few warnings.
+
+But in this case, I successfully was able to install Express.
+
+It did a few things.
+
+In package.json, it added this dependencies line on line five.
+
+Dependencies now includes express.js of a particular version in package.json.
+
+It included this node_modules directory, which happens to have a whole bunch of stuff.
+
+Really things that are related to and needed by Express.
+
+And it also added this package-lock.json file, which makes sure that future installs are compatible.
+
+Like a lot of dependencies from different modules I might use, let's make sure they all work together nicely.
+
+Notice also that we don't have a server.js file.
+
+As you recall, in the absence of package.json, telling the app what file to start with, server.js is looked for by default.
+
+So as you saw from the reading, you could either add a script line here-- scripts and then start.
+
+And we want it to node app.js.
+
+Or we could, as we're going to do here, simply run node app.js to start our server.
+
+So if I go down here to the command line environment, right?
+
+I'm at minimum-express, if I say node app.js, the server is running.
+
+And if I look here, I get Hello, world!
+
+If I inspect it, if I go to the network, if I look at, in this case, the response, I see that the response is there.
+
+I can look at the headers.
+
+The response header's X-Powered-By Express you see here.
+
+Let's take a quick look at what's going on in app.js.
+
+A few differences from what we've seen before.
+
+We require Express there on line 1.
+
+And on line 2, this constant app equals express open closed parens.
+
+Just as before, we create an HTML variable with the backticks.
+
+In this case, just serving up sort of static HTML.
+
+Now we see here on line 16 sort of the equivalent to that key statement we saw before in routing-favicon, right?
+
+Here these case statements.
+
+Here it's just a little bit simpler, a little easier to work with.
+
+So this app object that we created in line 2, now we can say app.get-- if there is a get request for the forward slash, then it sends the home page.
+
+The request and response are connected with this-- as the parameters to this method with the fat arrow function.
+
+Send back a status of 200, and send back the HTML content that we created here on line 4.
+
+So on line 18, it responds that send HTML-- it's sending back that HTML, the content that we assigned to that variable HTML.
+
+And then on line 21, app.listen 8080 means listen on port 8080 as you see here in my browser when I make the request.
+
+So we'll use Express quite a bit going forward.
+
+It's well-designed, it's a mature product, and it's worth knowing about.
+
+All right, so that wraps up this presentation.
+
+When you're done here, you can go on to the next reading.
+
+We'll talk about favicon middleware.

@@ -1,0 +1,85 @@
+Lesson: HTML Forms
+
+Activity: Creating a Registration Form Exercise Reviewed
+
+Transcript
+
+Let's take a look at the exercise you've just completed.
+
+You started with this file.
+
+You happened to open it, right?
+
+This is the exercise directory inside HTML forms, registration dot HTML.
+
+You wanted to turn it into this where we had some fields, of course we had a form tag on it.
+
+We had a couple of buttons there, the Submit button and the Reset button.
+
+And you had a, I believe an input field.
+
+We'll go through them together in a second.
+
+But you started with this, really just a blank HTML file, and turned it into this, all right?
+
+So this is how this works throughout the course that we give you most of the time where appropriate a starting file.
+
+In this case registration dot HTML which lives in the exercises directory of HTML forms, the current lessons.
+
+And we also give you a solution that matches our solution.
+
+Your mileage may vary, right?
+
+You may have a little bit different, sometimes better solution.
+
+But at least if you get stuck, it's something to look at, to go on to get a sense of what could I have done differently if I couldn't figure it out.
+
+Hopefully they all make sense, and this is pretty straightforward.
+
+But just know that there's always a solution waiting for you there to compare, I suppose, against which you build yourself.
+
+So let's take a look at registration dash 1 dot HTML, get in the solutions directory of the HTML forms directory in your class files.
+
+So a few things you're asked to do to add a form tag.
+
+The method is post, it sends its form data via the post verb of HTTP.
+
+Its action was this that we gave you webucator dot com slash course dash demos, et cetera.
+
+And you'll see in a second if you haven't already tried it out that that process formed that CSM file, a resource on our server actually does something.
+
+So we'll take a look at that together in just a minute.
+
+So we have the form tag.
+
+It starts on line 10 and ends on line 29.
+
+Any form for the most part and the way we'll be looking at them, at least initially, any form in general terms starts and ends with a form tag, an opening form tag with a method attribute and an action attribute and ends with a closing form tag.
+
+And then you're asked to add a series of elements in input of type hidden.
+
+Its name and ID were secret coded, its value 42.
+
+Here it is.
+
+And then the following form elements, name and ID of user name for an input of type text.
+
+A password field with name and ID PW, repeat password, PW2.
+
+A Submit button, that's an input of type submit.
+
+Its value, that is, what's displayed on the button to the user is register.
+
+And an input of type reset, which of course I suppose which when I fill out some data my reset simply wipes out the data that's in there.
+
+And then if I added some data and clicked register, I would see here responding back to you, the resource on our server that gave us the field names and the values of the fields that we sent along.
+
+I'll choose not to save that.
+
+But here's the completed solution.
+
+So that wraps up our quick look at that first exercise.
+
+When you're done here, you can go on to the next activity.
+
+We'll start talking about some other types of form elements, specifically next, checkboxes.
