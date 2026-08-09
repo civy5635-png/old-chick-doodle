@@ -248,11 +248,6 @@ footer a:hover {
     z-index: 1000;
 }
 
-.dropdown:hover .dropdown-menu,
-.dropdown:focus-within .dropdown-menu {
-    display: block;
-}
-
 .dropdown-menu li {
     margin: 0;
 }
