@@ -389,6 +389,15 @@ body.font-large {
     min-width: auto;
     padding-left: 15px;
     }
+    /* Responsive Adobe Animate banner */
+.animate-banner {
+    width: 100%;
+    max-width: 468px;
+    height: 60px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+}
     .footer-content {
         flex-direction: column;
         gap: 25px;
